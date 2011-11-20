@@ -14,7 +14,7 @@ void setup()
   	randomSeed(analogRead(0));
   
   	RGB1[0] = 0;
-  RGB1[1] = 0;
+        RGB1[1] = 0;
   	RGB1[2] = 0;
   
   	RGB2[0] = random(256);
@@ -45,7 +45,9 @@ void loop()
   	}
   	for (int x=0; x<3; x++) {
   		RGB2[x] = random(556)-300;
-  		RGB2[x] = constrain(RGB2[x], 0, 255); 
+  		RGB2[x] = constrain(RGB2[x], 0, 255);
+ //biao jiqu zhifan wei 
+ 
   		delay(1000);
  }
 }

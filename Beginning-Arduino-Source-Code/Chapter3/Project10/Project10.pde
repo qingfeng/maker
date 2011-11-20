@@ -8,7 +8,10 @@ int BluePin = 9;
 
 void setup() 
 { 
-  	Serial.begin(9600);
+  
+ //chuan'kou su'du 9600	
+  Serial.begin(9600);
+  // qingkong       
   	Serial.flush();
   	pinMode(RedPin, OUTPUT);
   	pinMode(GreenPin, OUTPUT);
