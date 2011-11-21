@@ -29,7 +29,7 @@ void loop() {
         for (int i=0; i<8; i++) {
                 led[i]= ~led[i]; // invert each row of the binary image
         }
-        delay(500);
+        delay(5000);
 }
 
 void screenUpdate() { // function to display image
